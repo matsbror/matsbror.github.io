@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>parallel patterns on EMBE innovation</title>
+    <link>https://www.embeinnovation.com/tags/parallel-patterns/</link>
+    <description>Recent content in parallel patterns on EMBE innovation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 16 Sep 2020 17:36:44 +0200</lastBuildDate><atom:link href="https://www.embeinnovation.com/tags/parallel-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Map Pattern</title>
+      <link>https://www.embeinnovation.com/post/map/</link>
+      <pubDate>Wed, 16 Sep 2020 17:36:44 +0200</pubDate>
+      
+      <guid>https://www.embeinnovation.com/post/map/</guid>
+      <description>Parallel patterns According to Wikipedia, a software design pattern is &amp;ldquo;a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design&amp;rdquo;.
+As a simple example, in the context of structural design of an algorithm, a repeated access of a vector/array item for a given index can be expressed with a loop structure instead of repeatedly accessing the vector updating the index manually.</description>
+    </item>
+    
+  </channel>
+</rss>
