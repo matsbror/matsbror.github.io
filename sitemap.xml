@@ -3,7 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.embeinnovation.com/comment-policy/</loc>
+    <loc>https://www.embeinnovation.com/about/</loc>
+    <lastmod>2020-10-28T14:42:54+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/about/comment-policy/</loc>
+    <lastmod>2020-10-28T14:42:54+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/</loc>
     <lastmod>2020-10-28T14:42:54+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -31,13 +45,6 @@
   </url>
   
   <url>
-    <loc>https://www.embeinnovation.com/</loc>
-    <lastmod>2020-10-28T14:36:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.embeinnovation.com/tags/</loc>
     <lastmod>2020-10-28T14:36:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -54,12 +61,6 @@
   <url>
     <loc>https://www.embeinnovation.com/post/</loc>
     <lastmod>2017-03-02T12:00:00-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.embeinnovation.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
