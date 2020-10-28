@@ -6,7 +6,17 @@
     <description>Recent content in Pseudo Random Thoughts on EMBE innovation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://www.embeinnovation.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2020 17:36:44 +0200</lastBuildDate><atom:link href="https://www.embeinnovation.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Map Pattern</title>
+      <link>https://www.embeinnovation.com/post/1-map-pattern/</link>
+      <pubDate>Wed, 16 Sep 2020 17:36:44 +0200</pubDate>
+      
+      <guid>https://www.embeinnovation.com/post/1-map-pattern/</guid>
+      <description>Parallel patterns According to Wikipedia, a software design pattern is &amp;ldquo;a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design&amp;rdquo;.
+As a simple example, in the context of structural design of an algorithm, a repeated access of a vector/array item for a given index can be expressed with a loop structure instead of repeatedly accessing the vector updating the index manually.</description>
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://www.embeinnovation.com/contact/</link>
