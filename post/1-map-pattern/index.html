@@ -36,7 +36,7 @@
 <meta itemprop="description" content="a gentle introduction to patterns">
 <meta itemprop="datePublished" content="2020-10-28T14:36:44+02:00" />
 <meta itemprop="dateModified" content="2020-10-28T14:36:44+02:00" />
-<meta itemprop="wordCount" content="1547">
+<meta itemprop="wordCount" content="1581">
 
 
 
@@ -315,9 +315,9 @@ if (!doNotTrack) {
 <p>The <a href="https://github.com/oneapi-src/oneTBB">Threading building blocks</a> from Intel is a popular parallel programming library for C++. It is really powerful and provides in general tremendous performance and, as I will explore in a subsequent blog post, it allows for <em>compositional parallelism</em> which I think is very important when you are building large systems.</p>
 <p>Here is the TBB version:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">map_tbb</span>(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">&amp;</span>arr, std<span style="color:#f92672">::</span>function<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span>(<span style="color:#66d9ef">int</span>)<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">const</span> <span style="color:#f92672">&amp;</span>foo) {
-    parallel_for((size_t) <span style="color:#ae81ff">0</span>, arr.size(), foo);
+      parallel_for((size_t) <span style="color:#ae81ff">0</span>, arr.size(), [<span style="color:#f92672">&amp;</span>](<span style="color:#66d9ef">int</span> i) { arr[i] <span style="color:#f92672">=</span> foo(arr[i]); };
 }
-</code></pre></div><p>The map idiom is such an important concept that it has it&rsquo;s own function in TBB: <code>parallel_for</code>. It takes, in this case, three arguments: the starting index <code>0</code>, the end index + 1 <code>arr.size()</code>, and the function to operate on each element, <code>foo</code>.</p>
+</code></pre></div><p>The map idiom is such an important concept that it has it&rsquo;s own function in TBB: <code>parallel_for</code>. It takes, in this case, three arguments: the starting index <code>0</code>, the end index + 1 <code>arr.size()</code>, and then a function which will be invoked on each index. Compared to previous models, this is a function inside a function and for this simple code, it really hurts the performance as you can see below.</p>
 <p>As you can see, it becomes simpler and simpler, but wait, there&rsquo;s more.</p>
 <h3 id="parallel-stl-algorithm">Parallel STL algorithm</h3>
 <p>Finally, since C++17, there is a way to execute most of the STL algorithms in parallel like this:</p>
@@ -339,23 +339,23 @@ if (!doNotTrack) {
 <tbody>
 <tr>
 <td>Sequential</td>
-<td>0.646 s</td>
+<td>0.425 s</td>
 <td></td>
 </tr>
 <tr>
 <td>Threads</td>
-<td>0.307 s</td>
-<td>2.10</td>
+<td>0.156 s</td>
+<td>2.73</td>
 </tr>
 <tr>
 <td>OpenMP</td>
-<td>0.351 s</td>
-<td>1.84</td>
+<td>0.147 s</td>
+<td>2.75</td>
 </tr>
 <tr>
 <td>TBB</td>
-<td>0.314 s</td>
-<td>2.06</td>
+<td>0.244 s</td>
+<td>1.65</td>
 </tr>
 <tr>
 <td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</td>
@@ -364,13 +364,13 @@ if (!doNotTrack) {
 </tr>
 <tr>
 <td>stl seq</td>
-<td>0.557 s</td>
+<td>0.349 s</td>
 <td></td>
 </tr>
 <tr>
 <td>stl par</td>
-<td>0.350 s</td>
-<td>1.56</td>
+<td>0.222 s</td>
+<td>1.57</td>
 </tr>
 </tbody>
 </table>
