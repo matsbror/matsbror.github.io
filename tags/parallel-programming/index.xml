@@ -6,7 +6,17 @@
     <description>Recent content in parallel programming on EMBE innovation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 28 Oct 2020 14:36:44 +0200</lastBuildDate><atom:link href="https://www.embeinnovation.com/tags/parallel-programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 08:57:22 +0100</lastBuildDate><atom:link href="https://www.embeinnovation.com/tags/parallel-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maps With Other Languages</title>
+      <link>https://www.embeinnovation.com/post/2-maps-other-languages/</link>
+      <pubDate>Tue, 10 Nov 2020 08:57:22 +0100</pubDate>
+      
+      <guid>https://www.embeinnovation.com/post/2-maps-other-languages/</guid>
+      <description>The Map Pattern in Other Languages In the first post on the map pattern I showed how the pattern could be coded in C++ in a few different ways. Now it&amp;rsquo;s time to look at some other popular languages: Rust, Java and Python.
+A caveat: I am not a day-to-day user of these languages and they are partly a mystery to me as I do not exactly know how they are translated to machine code at the end.</description>
+    </item>
+    
     <item>
       <title>The Map Pattern</title>
       <link>https://www.embeinnovation.com/post/1-map-pattern/</link>

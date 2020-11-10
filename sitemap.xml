@@ -3,6 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.embeinnovation.com/tags/java/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/tags/map/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/post/2-maps-other-languages/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/tags/parallel-patterns/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/tags/parallel-programming/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/tags/python/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/tags/rust/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.embeinnovation.com/tags/</loc>
+    <lastmod>2020-11-10T08:57:22+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.embeinnovation.com/comment-policy/</loc>
     <lastmod>2020-10-28T14:42:54+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,42 +80,7 @@
   </url>
   
   <url>
-    <loc>https://www.embeinnovation.com/tags/map/</loc>
-    <lastmod>2020-10-28T14:36:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.embeinnovation.com/tags/openmp/</loc>
-    <lastmod>2020-10-28T14:36:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.embeinnovation.com/tags/parallel-patterns/</loc>
-    <lastmod>2020-10-28T14:36:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.embeinnovation.com/tags/parallel-programming/</loc>
-    <lastmod>2020-10-28T14:36:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.embeinnovation.com/</loc>
-    <lastmod>2020-10-28T14:36:44+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.embeinnovation.com/tags/</loc>
     <lastmod>2020-10-28T14:36:44+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
